@@ -1,44 +1,89 @@
-nav{ text-align: right;}
-h1 >a{   
-    color: red
+nav {
+	text-align: right;
 }
-h1{
-    text-align: center
+h1>a{
+    color: red;
+}
+h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+#elon {
+	padding-left: 200px;
+	width: 200px;
+	height: 200px;
 }
 .box{
-   width: 100%;
-   height: 100%;
-}
+	width: 100%;
+	height: 100%;
 
-.leftBox{
-    width:50% ;
-    height:50%;
-    float: left;
-    
 }
-#Child >h3{
-    text-align: center;
+section {
+	padding: 10px
 }
-#Zip2 >h3 {
-text-align:center;
-}
+.leftBox {
+	float: left;
+	width: 50%;
 
-.leftBox >elon {
-    width: 30%;
-    padding: 20px;
-    display: block;
-}
-
-#ComFou >h3{
-    width: 80%;
-    text-align: center;
-    display: block;
-}
-#Child >h3 {
-    text-align: center;
 }
 .rightBox {
-    width:50% ;
-    height: 50%;
-    float: left ;
+	float: left;
+	width: 50%;
+}
+#Child h3{
+    text-align: center;
+}
+#Zip2 h3 {
+	text-align:center;
+}
+
+#ComFou h3{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+
+}
+p {
+	color: blue;
+}
+
+#X h3 {
+    text-align: center;
+}
+
+#spacex h3 {
+    text-align: center;
+}
+#Awards h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+#PopMedia h3{
+    text-align: center;
+    text-decoration: underline;
+}
+ol  {
+    color: red;
+    
+}
+li {
+    color:blue;
+}
+.leftBox  img {
+	width: 35%;
+ 	padding-left: 200px;
+	
+}
+.centerBox {
+	padding-left: 200px
+}
+iframe {
+	width: 500px ;
+	height :340px
+}
+li:nth-child(even) {
+    color: blue;
+}
+li:nth-child(odd) {
+    color: red;
 }
